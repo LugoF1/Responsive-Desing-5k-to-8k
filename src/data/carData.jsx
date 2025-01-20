@@ -25,49 +25,49 @@ export const carData = [
       name: "Honda NSX",
       description: "Superdeportivo de motor central que desafió a los europeos.",
       year: 1990,
-      imageUrl: "./img/gtr.png"
+      imageUrl: "./img/honda-nsx.png"
     },
     {
       id: 5,
       name: "Subaru Impreza WRX STI",
       description: "Sedán deportivo con tracción integral y herencia de rally.",
       year: 2004,
-      imageUrl: "./img/mp4-4.png"
+      imageUrl: "./img/wrx-sti.png"
     },
     {
       id: 6,
       name: "Mitsubishi Lancer Evolution",
       description: "Rival del WRX, conocido por su rendimiento en rally y calle.",
       year: 2003,
-      imageUrl: "./img/gtr.png"
+      imageUrl: "./img/lancer-evo.png"
     },
     {
       id: 7,
       name: "Nissan 350Z",
       description: "Coupé deportivo con motor V6 y diseño moderno.",
       year: 2005,
-      imageUrl: "./img/mp4-4.png"
+      imageUrl: "./img/nissan-350z.png"
     },
     {
       id: 8,
       name: "Toyota AE86",
       description: "Compacto ligero famoso por el drifting y el manga Initial D.",
       year: 1986,
-      imageUrl: "./img/gtr.png"
+      imageUrl: "./img/toyota-ae86.png"
     },
     {
       id: 9,
       name: "Mazda MX-5 Miata",
       description: "Roadster ligero que revivió el concepto de deportivo accesible.",
       year: 1990,
-      imageUrl: "./img/mp4-4.png"
+      imageUrl: "./img/mx5-miata.png"
     },
     {
       id: 10,
       name: "Honda S2000",
       description: "Roadster de alto rendimiento con motor VTEC de altas revoluciones.",
       year: 1999,
-      imageUrl: "./img/gtr.png"
+      imageUrl: "./img/honda-s2000.png"
     }
   ]
   
