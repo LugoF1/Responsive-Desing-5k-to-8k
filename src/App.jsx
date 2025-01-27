@@ -1,11 +1,15 @@
 import CarCard from "./components/CarCard";
 import { carData } from "./data/carData";
+import { countWords } from "./helpers/countWords";
+
+const date = new Date();
+const currentYear = date.getFullYear();
 
 export default function App() {
   return (
     <>
       <header className="bg-orange-600 text-white py-4 text-center">
-        <h1 className="text-3xl font-bold">JDM Cars Gallery</h1>
+        <h1 className="text-3xl font-bold">JDM Cars Gallery { countWords('JDM Cars Gallery') }</h1>
       </header>
 
       <main className="p-6">
@@ -24,7 +28,7 @@ export default function App() {
       </main>
 
       <footer className="bg-gray-800 text-white text-center py-4">
-        <p>&copy; 2025 JDM</p>
+        <p>&copy; {currentYear} JDM</p>
       </footer>
     </>
   );
